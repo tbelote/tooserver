@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Level 2.0
+Version    : 1.0
+Released   : 20070821
+Description: A Web 2.0 design with fluid width suitable for blogs and small websites.
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>TooServer - Simple server monitoring</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/stylesheets/default.css" rel="stylesheet" type="text/css" media="screen" />
+<%= javascript_include_tag "prototype", "effects", "tooserver" %>
+</head>
+<body onLoad="onLoad()">
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1><a href="/">TooServer - Simple Server Monitoring</a></h1>
+		<p><a href="http://tombelote.com/">By Thomas Belote</a></p>
+	</div>
+	<div id="menu">
+		<!--<ul>
+			<li class="current_page_item"><a href="#">Home</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul> -->
+	</div>
+</div>
+<!-- end header -->
+<!-- start page -->
+<div id="page">
+	<!-- start sidebar -->
+	<div id="sidebar">
+	</div>
+	<!-- end sidebar -->
+	<!-- start content -->
+	<div id="content">
+		<%= @content_for_layout %>
+	</div>
+	<!-- end content -->
+	<br style="clear: both;" />
+</div>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+	<p class="links">
+	</p>
+	<p class="legal">
+		&copy;2007 Level 2.0. All Rights Reserved.
+		&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+		Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>
+		&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+		Icons by <a href="http://famfamfam.com/">FAMFAMFAM</a>. </p>
+</div>
+<!-- end footer -->
+</body>
+</html>
